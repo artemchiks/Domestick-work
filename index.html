@@ -12,57 +12,52 @@
       <div class="container-header">
         <nav class="menu">
           <ul class="menu__list">
-            <div class="menu__list-cps">
-              <li class="menu__list-item">
-                <a href="#" class="menu__link-nav">
-                  <img class="logo-img" src="imgs/burger.svg" alt="Меню" />
+            <li class="menu__list-item">
+              <a href="#" class="menu__link-nav">
+                <img class="logo-img" src="./imgs/burger.svg" alt="Меню" />
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="logo">
+                <img class="logo-img" src="./imgs/Logo.svg" alt="Логотип" />
+              </a>
+            </li>
+          </ul>
+          <div class="menu__list-block">
+            <ul class="menu__list-invise">
+              <li class="menu__item-call">
+                <a href="#" class="menu__link">
+                  <img class="logo-img" src="./imgs/call.svg" alt="Позвонить" />
                 </a>
               </li>
-              <a href="#" class="logo">
-                <img class="logo-img" src="imgs/Logo.svg" alt="Логотип" />
-              </a>
-            </div>
-            <div class="menu__list-invise">
-              <div class="menu__list-action">
-                <li class="menu__item-call">
-                  <a href="#" class="menu__link">
-                    <img class="logo-img" src="imgs/call.svg" alt="Позвонить" />
-                  </a>
-                </li>
-                <li class="menu__item-chat">
-                  <a href="#" class="menu__link">
-                    <img class="logo-img" src="imgs/chat.svg" alt="Написать" />
-                  </a>
-                </li>
-                <li class="menu__item-checkstatus">
-                  <a href="#" class="menu__link">
-                    <img
-                      class="logo-img"
-                      src="imgs/checkstatus.svg"
-                      alt="Чат"
-                    />
-                  </a>
-                </li>
-              </div>
-              <div class="menu__item-cart">
-                <img class="logo-img" src="imgs/divider.svg" alt="Инструмент" />
-                <li class="menu__item">
-                  <a href="#" class="menu__link">
-                    <img class="logo-img" src="imgs/repair.svg" alt="Поиск" />
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">
-                    <img
-                      class="logo-img"
-                      src="imgs/checkstatus.svg"
-                      alt="Меню"
-                    />
-                  </a>
-                </li>
-              </div>
-            </div>
-          </ul>
+              <li class="menu__item-chat">
+                <a href="#" class="menu__link">
+                  <img class="logo-img" src="./imgs/chat.svg" alt="Написать" />
+                </a>
+              </li>
+              <li class="menu__item-checkstatus">
+                <a href="#" class="menu__link">
+                  <img class="logo-img" src="imgs/checkstatus.svg" alt="Чат" />
+                </a>
+              </li>
+            </ul>
+            <ul class="menu__list-info">
+              <li class="menu__item-pol">
+                <a href="#" class="menu__link">
+                  <img class="logo-img" src="./imgs/repair.svg" alt="Поиск" />
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  <img
+                    class="logo-img"
+                    src="./imgs/checkstatus.svg"
+                    alt="Меню"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -71,48 +66,60 @@
         <div class="container">
           <div class="Services">
             <div class="Services__content">
-              <img class="img-stick-active" src="imgs/highlight.svg" alt="" />
+              <img class="img-stick-active" src="./imgs/highlight.svg" alt="" />
               <h1 class="Services__content-text">Услуги и сервисы</h1>
             </div>
             <div class="Services__content-uslugi">
               <a href="#" class="zayavka"
                 >Оставить заявку
-                <img class="logo-img-r" src="imgs/repair.svg" alt="Заявка" />
+                <img class="logo-img-r" src="./imgs/repair.svg" alt="Заявка" />
               </a>
               <a href="#" class="zayavka"
                 >Статус ремонта
                 <img
                   class="logo-img-r"
-                  src="imgs/checkstatus.svg"
+                  src="./imgs/checkstatus.svg"
                   alt="Ремонт"
                 />
               </a>
             </div>
           </div>
           <div class="blov_input">
-            <input
-              type="text"
-              class="input"
-              placeholder="Ремонтируемые устройства"
-            />
-            <div class="block_services">
-              <a href="#" class="additional_services">Дополнительные услуги</a>
-              <a href="#" class="additional_services">Цены на услуги</a>
-              <a href="#" class="additional_services additional_services-rem"
-                >Ремонтируемые устрой</a
-              >
-              <a href="#" class="additional_services">Специальные цены</a>
-            </div>
+            <nav class="block_services">
+              <button class="btn btn__active">
+                <a
+                  href="#"
+                  class="additional_services additional_services__mobile service--active"
+                  >Ремонтируемые устройства</a
+                >
+              </button>
+              <button class="btn">
+                <a href="#" class="additional_services"
+                  >Дополнительные услуги</a
+                >
+              </button>
+              <button class="btn">
+                <a href="#" class="additional_services">Цены на услуги</a>
+              </button>
+              <button class="btn">
+                <a href="#" class="additional_services additional_services-rem"
+                  >Адреса сервисных центров</a
+                >
+              </button>
+              <button class="btn">
+                <a href="#" class="additional_services">Специальные цены</a>
+              </button>
+            </nav>
           </div>
           <p class="reviews-text">Отзывы</p>
           <div class="block_flex">
-            <div class="www">
-              <p class="text-info">
+            <article class="www">
+              <h4 class="text-info">
                 Мы являемся авторизованным сервисным центром по ремонту техники
                 Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
                 официальной гарантией производителя.
-              </p>
-              <p class="text-info-work">
+              </h4>
+              <h4 class="text-info-work">
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера,
                 <span class="text-info-work-continum"
@@ -120,18 +127,18 @@
                   гордимся тем, что к нам обращаются по рекомендациям и, в свою
                   очередь, советуют нас родным и близким.</span
                 >
-              </p>
+              </h4>
               <div class="read">
                 <a href="#" class="read__more">
-                  <img class="expand-img" src="imgs/expand.svg" alt="" />
+                  <img class="expand-img" src="./imgs/expand.svg" alt="" />
                 </a>
                 <p class="read__next">Читать далее</p>
               </div>
-            </div>
+            </article>
             <div class="read__arrows">
-              <img class="photo-gps-img" src="imgs/_MG_3223.png" alt="" />
+              <img class="photo-gps-img" src="./imgs/_MG_3223.png" alt="" />
             </div>
-          </div>  
+          </div>
         </div>
       </section>
     </main>
