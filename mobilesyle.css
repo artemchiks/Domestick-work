@@ -1,0 +1,161 @@
+@media (min-width: 320px) {
+  html {
+    box-sizing: border-box;
+  }
+  body {
+    color: #040404;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    font-family: "TT Lakes";
+    box-shadow:
+      16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+      -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+    background: rgb(255, 255, 255, 0);
+    position: absolute;
+    width: 320px;
+    height: 1024px;
+    top: 0%;
+    bottom: 0%;
+  }
+  .menu__item-cart {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .menu__list-cps {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .menu__list {
+    padding: 0;
+  }
+  .li {
+    color: rgb(27, 28, 33);
+    font-family: "TT Lakes";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .dd {
+    display: flex;
+    gap: 60px;
+  }
+  .repair__menu-list,
+  .repair__menu-ink-nav {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(27, 28, 33);
+    font-family: "TT Lakes";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+  }
+  .repair--active {
+    color: rgb(126, 126, 130);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+  }
+
+  .repair__menu-ist--item {
+    margin-bottom: 20px;
+  }
+  .informatiounOfUser {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+  }
+  .repair__menu-list--cps {
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 238px;
+  }
+
+  .img-stick-active {
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    left: -0.1px;
+    right: 96.4%;
+    top: 100px;
+    bottom: 83.11%;
+  }
+  .gmail {
+    margin-top: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+  }
+
+  .gmail__text {
+    color: rgb(27, 28, 33);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+  }
+  .informatiounOfUser {
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+  }
+  .phone {
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    margin-bottom: 40px;
+  }
+  .phone__num {
+    color: rgb(27, 28, 33);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+
+    text-decoration: none;
+  }
+  .languges {
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .languges__href {
+    text-decoration: none;
+    color: rgb(27, 28, 33);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  .active__class {
+    color: rgb(126, 126, 130);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+}
